@@ -17,8 +17,8 @@ export default function page() {
           />
         </div>
 
-        <div className='absolute bottom-0 w-full py-6 bg-gray-800 text-white text-xl overflow-clip text-center'>
-          <h1>John Bill / Creator / Moved to NYC / 27.11.22 / Live now/John Bill / Creator / Moved to NYC / 27.11.22 / Live now John Bill / Creator / Moved to NYC / 27.11.22 / Live now/John Bill / Creator / Moved to NYC </h1>
+        <div className='absolute bottom-0 w-full py-6 bg-gray-800 text-white text-xl overflow-clip text-center text '>
+          <h1 className='word-nowrap'>John Bill / Creator / Moved to NYC / 27.11.22 / Live now/John Bill / Creator / Moved to NYC / 27.11.22 / Live now John Bill / Creator / Moved to NYC / 27.11.22 / Live now/John Bill / Creator/</h1>
         </div>
 
         <div className='absolute bottom-[-80px] left-[100px] bg-white flex w-[550px] h-[250px] rounded-2xl shadow-lg shadow-gray-400'>

@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Videos() {
     return (
-        <div className='relative w-full px-[100px] flex flex-wrap gap-6 mt-[50px] mb-[300px] p-6'>
+        <div className='relative w-full px-4 md:px-[100px] flex flex-wrap gap-6 mt-[50px] mb-[300px] p-6 justify-center md:justify-normal'>
             <div className='w-[284px] h-[312px] rounded-xl bg-gray-200 flex flex-col justify-center items-center'>
                 <div className='absolute w-full h-full flex justify-center items-center'>
                     <Plus size={50} color='gray' />

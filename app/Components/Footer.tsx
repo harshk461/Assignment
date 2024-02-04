@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Footer() {
     return (
-        <footer className='float-bottom w-full flex justify-between items-center py-[100px] px-[150px] border-t-[1px] border-t-gray-300'>
+        <footer className='float-bottom w-full flex flex-col md:flex-row justify-between md:items-center items-start py-[100px] px-[30px] md:px-[150px] border-t-[1px] border-t-gray-300 gap-4'>
             <div className='flex flex-col gap-4 items-start'>
                 <h1 className='text-4xl font-bold'>aBit</h1>
                 <h1 className='text-lg'>Changing The Way In Which <br /> Creators and Fans Interact</h1>
